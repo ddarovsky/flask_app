@@ -5,7 +5,7 @@ from os import environ
 
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
-
+#
 def get_businesses(location, term):
 	#define authentication based on the 4 API Keys given
 	auth = Oauth1Authenticator(
